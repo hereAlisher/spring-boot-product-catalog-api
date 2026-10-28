@@ -1,6 +1,6 @@
-# First REST API with Spring Boot
+# Product Catalog REST API
 
-A beginner-friendly RESTful API built with Java and Spring Boot that demonstrates basic CRUD operations on a product catalog. This repository is intended for learning how to create and manage REST APIs using Spring Boot and an in-memory H2 database.
+A professional RESTful backend built with Java and Spring Boot for managing a product catalog. The project demonstrates CRUD operations, request/response models, and persistence with an in-memory H2 database.
 
 ## 📦 Features
 
@@ -52,7 +52,7 @@ src/
 Clone the repository and run:
 
 ```bash
-git clone https://github.com/kingkami0/secondtask.git
+git clone https://github.com/hereAlisher/secondtask.git
 cd secondtask
 ./mvnw spring-boot:run
 ```
@@ -112,11 +112,11 @@ http://localhost:8080/h2-console
 
 ## 🧪 Testing
 
-Use Postman, curl, or any HTTP client to test endpoints. Because the DB is in-memory, data will be reset when the application restarts.
+Use Postman, curl, or any HTTP client to test endpoints. Because the database is in-memory, data will be reset when the application restarts.
 
 ## 📸 Screenshots
 
-Here are also the screenshots : 
+Here are the screenshots:
 <img width="1908" height="1068" alt="database" src="https://github.com/user-attachments/assets/313083b7-46b7-4c86-b20f-7c462102e3fa" />
 <img width="1919" height="850" alt="delete" src="https://github.com/user-attachments/assets/d0d3d936-cb91-411a-8e64-db12f28c4a7d" />
 <img width="1886" height="1069" alt="get" src="https://github.com/user-attachments/assets/fa9067d7-4813-4c9d-ae3a-a725c83c9aeb" />
@@ -132,5 +132,3 @@ Contributions are welcome. If you plan to add functionality or fix bugs:
 2. Create a feature branch: `git checkout -b feat/your-feature`
 3. Commit your changes and push
 4. Open a pull request describing your changes
-
-
